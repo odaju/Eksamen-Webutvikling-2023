@@ -45,6 +45,24 @@ body header nav a img{
     padding: 120px;
 }
 
+#greysectionp{
+margin: 0rem 0rem 4rem 0rem;
+}
+
+#h1index{
+    font-size: 50px;
+}
+
+#readbtnyellow{
+    background-color: #e6bd43;
+    padding: 1rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
 #signup{
     background-color: rgba(211, 211, 211, 0.776);
     text-align: center;
@@ -77,6 +95,7 @@ footer{
     background-color: #252525;
     padding:1rem;
     overflow: hidden;
+    font-weight: bold;
 }
 /* Hadde vanskeligheter med å få elementene i footer i horisontallinje, og har derfor brukt AC sin forelesning om responsivt design til inspirasjon*/
 
@@ -109,7 +128,7 @@ footer nav ul{
 
 footer nav p{
     display: inline-block;
-    margin-left: 42rem;
+    margin-left: 40rem;
     margin-top: 3rem;
     color: #fff
     
