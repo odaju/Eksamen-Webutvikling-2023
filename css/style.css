@@ -47,24 +47,32 @@ body header nav a img{
 
 footer{
     background-color: #252525;
+    padding:1rem;
+    overflow: hidden;
 }
+/* Hadde vanskeligheter med å få elementene i footer i horisontallinje, og har derfor brukt AC sin kode fra responsivt design til inspirasjon*/
 
 footer nav a img{
-    margin: 4rem 0rem 0rem 4rem;
+    margin: 0;
+    float: left;
+    width: 7rem;
+    height: 7rem;
+}
+
+footer nav ul{
+    list-style: none;
+    float: right;
 }
 
 footer nav ul li{
-    text-align: right;
-    list-style: none;
-    text-decoration: none;
-    color: #fff;
-    display: inline;
+    display:inline-block;
+    margin-right: 1rem;
+    margin-top: 3rem;
 }
 
 footer nav ul li a{
     text-decoration: none;
     color: #fff;
-    display: inline;
 }
 
 footer nav ul{
@@ -72,7 +80,10 @@ footer nav ul{
 }
 
 footer nav p{
-    text-align: center;
+    display: inline-block;
+    margin-left: 40rem;
+    margin-top: 4rem;
     color: #fff
+    
 }
 
