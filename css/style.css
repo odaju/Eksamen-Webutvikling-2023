@@ -46,7 +46,8 @@ body header nav a img{
 }
 
 #greysectionp{
-margin: 0rem 0rem 4rem 0rem;
+margin: 0rem 0rem 4rem 22rem;
+max-width: 800px;
 }
 
 #h1index{
@@ -61,7 +62,74 @@ margin: 0rem 0rem 4rem 0rem;
     font-weight: bold;
 }
 
+#section2index{
+    padding: 90px;
+    text-align: center;
+}
 
+#section2p{
+   margin: 1rem 4rem 1rem 4rem;
+}
+
+
+#borderbox{
+    border-style:solid; /*googlet meg frem til hvordan å sette en ramme rundt ett element. Se kildeliste*/
+    border-width: 2px;
+    overflow: hidden;
+}
+
+#boximg{
+    float: left;
+    margin-left: 30rem;
+    padding: 60px 20px 60px 60px;
+}
+
+#borderbox h2{
+    margin: 60px 0 0 0;
+    padding:60px 0 0 0;
+}
+
+#borderbox p{
+    max-width: 1250px;
+    margin-bottom: 4rem;
+}
+
+#boxbtn{
+    border-style: solid;
+    text-decoration: none;
+    padding: 1rem;
+    color:#000;
+}
+
+#section4index{
+    padding: 50px;
+    margin: 10px;
+}
+
+#serviceos{
+    text-align: center;
+}
+
+#serviceliste{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+
+#serviceliste li{
+    display:inline-block;
+}
+
+.serviceitems{
+    font-weight: bold;
+    max-width: 200px;
+    padding:4rem;
+}
+
+.section4p{
+    font-weight: normal;
+}
 
 #signup{
     background-color: rgba(211, 211, 211, 0.776);
@@ -69,17 +137,18 @@ margin: 0rem 0rem 4rem 0rem;
     padding: 50px;
 }
 
-#signbtn{
-    background-color: #e6bd43;
-    padding:1rem;
-    font-weight: bold;
-    border: none;
-}
-
 #signfelt{
     padding:1rem;
     border: none;
 }
+
+#signbtn{
+    background-color: #e6bd43;
+    padding:1rem;
+    font-weight: bold;
+    border:none;
+}
+
 
 
 
@@ -128,7 +197,7 @@ footer nav ul{
 
 footer nav p{
     display: inline-block;
-    margin-left: 40rem;
+    margin-left: 35rem;
     margin-top: 3rem;
     color: #fff
     
