@@ -21,9 +21,9 @@ body header nav a img{
 }
 
 #navliste li{
- display:inline-block;
- margin-right: 3rem;
- margin-top: 3rem;
+    display:inline-block;
+    margin-right: 3rem;
+    margin-top: 3rem;
 }
 
 #navliste a{
@@ -37,7 +37,35 @@ body header nav a img{
     padding:1rem;
 }
 
+/*CSS INDEX*/
 
+#greysection{
+    background-color: rgba(211, 211, 211, 0.776);
+    text-align: center;
+    padding: 120px;
+}
+
+#signup{
+    background-color: rgba(211, 211, 211, 0.776);
+    text-align: center;
+    padding: 50px;
+}
+
+#signbtn{
+    background-color: #e6bd43;
+    padding:1rem;
+    font-weight: bold;
+    border: none;
+}
+
+#signfelt{
+    padding:1rem;
+    border: none;
+}
+
+
+
+/*CSS ABOUT*/
 
 #contactsection{
     background-color:rgba(211, 211, 211, 0.776);
@@ -50,7 +78,7 @@ footer{
     padding:1rem;
     overflow: hidden;
 }
-/* Hadde vanskeligheter med å få elementene i footer i horisontallinje, og har derfor brukt AC sin kode fra responsivt design til inspirasjon*/
+/* Hadde vanskeligheter med å få elementene i footer i horisontallinje, og har derfor brukt AC sin forelesning om responsivt design til inspirasjon*/
 
 footer nav a img{
     margin: 0;
@@ -67,7 +95,7 @@ footer nav ul{
 footer nav ul li{
     display:inline-block;
     margin-right: 1rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 footer nav ul li a{
@@ -81,8 +109,8 @@ footer nav ul{
 
 footer nav p{
     display: inline-block;
-    margin-left: 40rem;
-    margin-top: 4rem;
+    margin-left: 42rem;
+    margin-top: 3rem;
     color: #fff
     
 }
