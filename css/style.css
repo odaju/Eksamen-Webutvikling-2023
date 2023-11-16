@@ -3,6 +3,40 @@ body{
     margin: 0;
 }
 
+/* CSS MENY */
+
+#navigasjon{
+    height: 10rem;
+}
+
+body header nav a img{
+    padding: 1rem 0rem 0rem 1rem;
+    width: 7rem;
+    height: 7rem;
+}
+
+#navliste{
+    float: right;
+    list-style: none;
+}
+
+#navliste li{
+ display:inline-block;
+ margin-right: 3rem;
+ margin-top: 3rem;
+}
+
+#navliste a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#navbtn{
+    background-color: #e6bd43;
+    padding:1rem;
+}
+
 
 
 #contactsection{
@@ -20,6 +54,7 @@ footer nav a img{
 }
 
 footer nav ul li{
+    text-align: right;
     list-style: none;
     text-decoration: none;
     color: #fff;
@@ -30,6 +65,10 @@ footer nav ul li a{
     text-decoration: none;
     color: #fff;
     display: inline;
+}
+
+footer nav ul{
+    text-align: right;
 }
 
 footer nav p{
