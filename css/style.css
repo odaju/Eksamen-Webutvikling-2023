@@ -149,14 +149,28 @@ max-width: 800px;
     border:none;
 }
 
-
-
-
 /*CSS ABOUT*/
+
+#section1about{
+    background-image: url(../img/portfolio_bkgr.png); /*Måtte se en video for referanse til hvordan jeg satt et bakgrunnsbilde. Se litteraturliste.*/
+    background-size: cover;
+    padding: 100px;
+    overflow: hidden;
+}
+
+#article1section{
+    background-color: #fff;
+    max-width: 600px;
+    float: right;
+    padding: 5rem;
+}
 
 #contactsection{
     background-color:rgba(211, 211, 211, 0.776);
 }
+
+
+
 
 /* CSS FOOTER */
 
