@@ -187,10 +187,72 @@ max-width: 800px;
     margin: 10px;
 }
 
-#contactsection{
-    background-color:rgba(211, 211, 211, 0.776);
+#klienteroverskrift{
+    font-size: 30px;
 }
 
+#clientsfelt{
+    text-align: center;
+    color: #000;
+    background-color: #e6bd43;
+    padding:3rem;
+    margin: 0;
+}
+
+.clients{
+    padding: 3rem;
+}
+
+#contactsection{
+    background-color:rgba(211, 211, 211, 0.612);
+    padding: 0rem 6rem 20rem 0rem;
+}
+
+#contactoverskrift{
+    text-align: center;
+    margin: 0;
+    padding: 3rem;
+    font-size: 30px;
+}
+
+#kartbilde{
+    width: 100%;
+}
+
+#messageform{
+    float: left;
+    margin-right: 5rem;
+    margin-left: 30rem;
+}
+
+.labeltext{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#message{
+    padding:100px;
+    border:none;
+}
+
+#name{
+    padding: 1rem;
+    border: none;
+    width: 350px;
+}
+
+#subject{
+    padding: 1rem;
+    border: none;
+    width: 350px;
+}
+
+#submitbtn{
+    background-color: #e6bd43;
+    padding:1rem;
+    border: none;
+    font-weight: bold;
+}
 
 
 
