@@ -106,18 +106,18 @@ max-width: 800px;
     margin: 10px;
 }
 
-#serviceos{
+.serviceos{
     text-align: center;
 }
 
-#serviceliste{
+.serviceliste{
     list-style: none;
     padding: 0;
     margin:0;
     text-align: center;
 }
 
-#serviceliste li{
+.serviceliste li{
     display:inline-block;
 }
 
@@ -159,10 +159,32 @@ max-width: 800px;
 }
 
 #article1section{
-    background-color: #fff;
+    background-color: #ffffffb3;
     max-width: 600px;
     float: right;
     padding: 5rem;
+}
+
+#articlep{
+    margin-bottom: 4rem;
+}
+
+#intouchbtn{
+    text-decoration: none;
+    background-color: #e6bd43;
+    padding:1rem;
+    font-weight: bold;
+    color:#000
+}
+
+#serviceheading{
+    text-align: center;
+    font-size: 40px;
+}
+
+#section2about{
+    padding: 50px;
+    margin: 10px;
 }
 
 #contactsection{
