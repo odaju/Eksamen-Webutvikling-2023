@@ -37,7 +37,7 @@ body header nav a img{
     padding:1rem;
 }
 
-/*CSS INDEX*/
+/*CSS INDEX.html*/
 
 #greysection{
     background-color: rgba(211, 211, 211, 0.776);
@@ -149,7 +149,7 @@ max-width: 800px;
     border:none;
 }
 
-/*CSS ABOUT*/
+/*CSS ABOUT.html*/
 
 #section1about{
     background-image: url(../img/portfolio_bkgr.png); /*Måtte se en video for referanse til hvordan jeg satt et bakgrunnsbilde. Se litteraturliste.*/
@@ -252,6 +252,67 @@ max-width: 800px;
     padding:1rem;
     border: none;
     font-weight: bold;
+}
+
+/* CSS PRODUKT.html*/
+
+#headerphoto{
+    height: 360px;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.5;
+    background-image:url(../img/portfolio_bkgr.png)
+    /*Måtte søke opp hvordan man gjorde et bilde gjennomsiktig. Se litteraturliste.*/
+}
+
+#portoverskrift{
+    text-align: center;
+    padding:170px;
+    font-size: 2rem;
+}
+
+.overskrifter{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.strek{
+    margin:2rem;
+    color: #e6bd43;
+}
+
+#produktknapper{
+    padding: 2rem;
+}
+
+#port_button1{
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    padding: 8px;
+    color:#000;
+}
+
+.port_button{
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    padding: 8px;
+    color:#000;
+    margin-left: 1rem;
+}
+
+.artikkelkort{
+    display: inline-block;
+    max-width: 350px;
+    min-width: 200px;
+    margin: 2rem;
+}
+
+#artikkelkort1{
+    max-width: 350px;
+    min-width: 200px;
+    margin:2rem;
 }
 
 
