@@ -315,7 +315,49 @@ max-width: 800px;
     margin:2rem;
 }
 
+#artikkelpic{
+    height: 600px;
+}
 
+#artikkelkort2{
+    display: inline-block;
+    max-width: 350px;
+    min-width: 200px;
+    margin: 2rem 2rem 0rem 2rem;
+}
+
+#artikkelkort3{
+    display: inline-block;
+    max-width: 350px;
+    min-width: 200px;
+    margin: 0rem 0rem 0rem 34rem;
+}
+
+#artikkelbilde1{
+    height: 800px;
+}
+
+#artikkelbilde2{
+    height: 800px;
+}
+
+
+/*artikkelkort
+
+#artikkelkort2{
+    display: inline-block;
+    max-width: 350px;
+    min-width: 200px;
+    margin: 0rem 3rem 0rem 14rem;
+}
+
+#artikkelkort3{
+    display: inline-block;
+    max-width: 350px;
+    min-width: 200px;
+    margin: 0rem 3rem 0rem 14rem;
+}
+ */
 
 /* CSS FOOTER */
 
