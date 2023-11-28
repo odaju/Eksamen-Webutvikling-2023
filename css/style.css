@@ -73,7 +73,7 @@ max-width: 800px;
 
 
 #borderbox{
-    border-style:solid; /*googlet meg frem til hvordan å sette en ramme rundt ett element. Se kildeliste*/
+    border-style:solid; /*Googlet meg frem til hvordan å sette en ramme rundt ett element. Se litteraturliste, Nr.3.*/
     border-width: 2px;
     overflow: hidden;
 }
@@ -152,7 +152,7 @@ max-width: 800px;
 /*CSS ABOUT.html*/
 
 #section1about{
-    background-image: url(../img/portfolio_bkgr.png); /*Måtte se en video for referanse til hvordan jeg satt et bakgrunnsbilde. Se litteraturliste.*/
+    background-image: url(../img/portfolio_bkgr.png); /*Måtte se en video for referanse til hvordan jeg satt et bakgrunnsbilde med annen mappestruktur. Se litteraturliste, Nr.7.*/
     background-size: cover;
     padding: 100px;
     overflow: hidden;
@@ -266,14 +266,15 @@ max-width: 800px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
-    /* Brukt w3schools for å finne ut av hvordan man fikk teksten tydlig flytende over et bilde. Se litteraturliste*/
+    font-weight:bold;
+    /* Brukt w3schools for å finne ut av hvordan man fikk teksten tydlig flytende over et bilde. Se litteraturliste, Nr.15.*/
 }
 
 #textboxphoto{
     width:100%;
     height:450px;
     opacity: 0.5;
-    /*Måtte søke opp hvordan man gjorde et bilde gjennomsiktig. Se litteraturliste.*/
+    /*Måtte søke opp hvordan man gjorde et bilde gjennomsiktig. Se litteraturliste, Nr.16.*/
 }
 
 .overskrifter{
@@ -347,23 +348,6 @@ max-width: 800px;
 }
 
 
-/*artikkelkort
-
-#artikkelkort2{
-    display: inline-block;
-    max-width: 350px;
-    min-width: 200px;
-    margin: 0rem 3rem 0rem 14rem;
-}
-
-#artikkelkort3{
-    display: inline-block;
-    max-width: 350px;
-    min-width: 200px;
-    margin: 0rem 3rem 0rem 14rem;
-}
- */
-
 /* CSS FOOTER */
 
 footer{
@@ -372,7 +356,7 @@ footer{
     overflow: hidden;
     font-weight: bold;
 }
-/* Hadde vanskeligheter med å få elementene i footer i horisontallinje, og har derfor brukt AC sin forelesning om responsivt design til inspirasjon*/
+/* Hadde vanskeligheter med å få elementene i footer i horisontallinje, og har derfor brukt AC sin forelesning om responsivt design til inspirasjon. Se litteraturliste, Nr.5.*/
 
 footer nav a img{
     margin: 0;
